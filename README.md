@@ -1,7 +1,6 @@
 # TenLinesSnake
 A snake in ten lines of code | C# Console
 ```c#
-static (int W, int H, List<(int X, int Y)> A, List<(int X, int Y)> M, List<char[]> D, (int X, int Y) P, int O, int T, Random R) G = (64, 32, new List<(int X, int Y)>(), new List<(int, int)>() { (32, 16), (33, 16), (34, 16), (35, 16), (36, 16), (37, 16), (38, 16) }, new List<char[]>(), (32, 16), 0, 0, new Random());
         static void Main(string[] args)
         {
             Task.Delay(1000 / 15).Wait();
