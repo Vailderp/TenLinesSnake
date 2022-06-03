@@ -15,3 +15,4 @@ A snake in ten lines of code | C# Console
             new Action((G.P.X<0||G.P.X>=G.W||G.P.Y<0||G.P.Y>=G.H||G.M.Skip(1).Contains(G.P))?new Action(()=>{}):new Action(()=>Main(null))).Invoke();;
         }
 ```
+![image](https://user-images.githubusercontent.com/59770659/171810746-211060c7-b098-4757-8eff-b68be677b524.png)
